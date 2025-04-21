@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.3">
+  <diagram name="Page-1" id="N7tScTsT484MI9fxU_f6">
+    <mxGraphModel dx="1005" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mcsEERpd9obGlJGI5x1h-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mcsEERpd9obGlJGI5x1h-4" target="DST6Bs41cTwg6CoFceAC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcsEERpd9obGlJGI5x1h-4" value="&lt;b&gt;Https Request&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="295" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-31" value="PM Copilot" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;verticalAlign=top;fontStyle=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="130" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-34" value="&lt;div&gt;server side events&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="410" y="260" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-24" value="Copilot SDK (Nuget)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="320" y="130" width="480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DST6Bs41cTwg6CoFceAC-1" target="DST6Bs41cTwg6CoFceAC-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-1" value="Orchestrator Controller" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-3" value="HTTP Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DST6Bs41cTwg6CoFceAC-2" target="DST6Bs41cTwg6CoFceAC-1" edge="1">
+          <mxGeometry x="-0.0909" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DST6Bs41cTwg6CoFceAC-4" target="DST6Bs41cTwg6CoFceAC-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-4" value="Orchestrator Router" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcsEERpd9obGlJGI5x1h-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DST6Bs41cTwg6CoFceAC-8" target="mcsEERpd9obGlJGI5x1h-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-8" value="Copilot Client&lt;div&gt;(Proxy)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DST6Bs41cTwg6CoFceAC-13" target="DST6Bs41cTwg6CoFceAC-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mcsEERpd9obGlJGI5x1h-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DST6Bs41cTwg6CoFceAC-13" target="mcsEERpd9obGlJGI5x1h-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-13" value="Copilot Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-15" value="PM Copilot Logic" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mcsEERpd9obGlJGI5x1h-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="360" />
+            </Array>
+            <mxPoint x="420" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-26" value="CopilotService&lt;div&gt;Interface&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DST6Bs41cTwg6CoFceAC-28" target="DST6Bs41cTwg6CoFceAC-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-40" value="Implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=10;" parent="1" source="DST6Bs41cTwg6CoFceAC-28" target="DST6Bs41cTwg6CoFceAC-26" edge="1">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-28" value="PM Copilot Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DST6Bs41cTwg6CoFceAC-32" value="Copilot Orchestrator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="140" y="130" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="mcsEERpd9obGlJGI5x1h-6" value="&lt;b&gt;Response&lt;br&gt;event-stream&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
