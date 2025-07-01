@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.2.0">
+  <diagram name="Page-1" id="NsV-b_rOQSx7sIdMvDjV">
+    <mxGraphModel dx="2254" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rLy20smRiQUEDHiaMtCd-56" value="Azure Front Door&lt;br&gt;(&lt;a style=&quot;font-size: 13px; text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 69, 120); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.Cdn/profiles/afd-agca-rake&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;afd-agca-rake&lt;/a&gt;)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Front_Doors.svg;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="222" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;App Gateway&lt;br&gt;(&lt;a style=&quot;vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 90, 158); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(225, 223, 221);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.Network/applicationGateways/apgw-agca-rake&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;apgw-agca-rake&lt;/a&gt;)&lt;/font&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" parent="1" vertex="1">
+          <mxGeometry x="101.69999999999999" y="355" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-9" value="snet-agca-appgw" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;spacingTop=0;spacing=22;spacingRight=0;textShadow=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="80" y="325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-11" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;container app&lt;br&gt;(&lt;a style=&quot;text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 69, 120); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.App/containerApps/ca-agca-rake&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;ca-agca-rake&lt;/a&gt;)&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" parent="1" vertex="1">
+          <mxGeometry x="410" y="360" width="61.82" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-12" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="385" y="310" width="175" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-13" value="snet-agca-rake-capp" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;spacingTop=0;spacing=22;spacingRight=0;textShadow=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="385" y="318.48" width="218" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-14" value="&lt;b&gt;vnet-agca-rake&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="510" width="50" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-15" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" parent="1" vertex="1">
+          <mxGeometry x="68.31" y="330" width="33.39" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" parent="1" vertex="1">
+          <mxGeometry x="403" y="323.48" width="33.39" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rLy20smRiQUEDHiaMtCd-35" target="rLy20smRiQUEDHiaMtCd-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-28" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Network Security Group&lt;br&gt;(&lt;a style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; color: rgb(0, 90, 158); outline: none; text-decoration-line: none; text-align: left; background-color: rgb(223, 223, 223);&quot; tabindex=&quot;-1&quot; class=&quot;ms-Link root-268&quot; href=&quot;https://portal.azure.com/#blade/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2Fdd46fbee-59a0-47b0-bb75-3a3f02badb34%2FresourceGroups%2Frg-agca-rake%2Fproviders%2FMicrosoft.Network%2FnetworkSecurityGroups%2Fnsg-appgw-agca-rake&quot;&gt;nsg-appgw-agca-rake&lt;/a&gt;)&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
+          <mxGeometry x="164.35000000000002" y="240" width="24.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rLy20smRiQUEDHiaMtCd-28" target="rLy20smRiQUEDHiaMtCd-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Network Security Group&lt;br&gt;(&lt;a style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; color: rgb(0, 90, 158); outline: none; text-align: left; background-color: rgb(237, 235, 233);&quot; tabindex=&quot;-1&quot; class=&quot;ms-Link root-268&quot; href=&quot;https://portal.azure.com/#blade/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2Fdd46fbee-59a0-47b0-bb75-3a3f02badb34%2FresourceGroups%2Frg-agca-rake%2Fproviders%2FMicrosoft.Network%2FnetworkSecurityGroups%2Fnsg-capp-agca-rake&quot;&gt;nsg-capp-agca-rake&lt;/a&gt;)&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
+          <mxGeometry x="495.11" y="221.51000000000002" width="24.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.449;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rLy20smRiQUEDHiaMtCd-30" target="rLy20smRiQUEDHiaMtCd-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rLy20smRiQUEDHiaMtCd-7" target="rLy20smRiQUEDHiaMtCd-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="380" as="sourcePoint" />
+            <mxPoint x="725" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-35" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Private DNS Zone&lt;br&gt;(&lt;a style=&quot;text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 69, 120); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.Network/privateDnsZones/privatelink.eastus.azurecontainerapps.io&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;privatelink.eastus.azurecontainerapps.io&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.dns_privatezone_02;" parent="1" vertex="1">
+          <mxGeometry x="270" y="358.89000000000004" width="49.8" height="52.2" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-42" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Public IP Address&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(&lt;a style=&quot;text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 90, 158); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(225, 223, 221);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.Network/publicIPAddresses/public-ip-agca-rake&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;public-ip-agca-rake&lt;/a&gt;)&lt;/font&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_IPAddress.svg;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="382" width="30.95" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-44" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Virtual Machine&lt;br&gt;(&lt;a style=&quot;text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 69, 120); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.Compute/virtualMachines/vm-agca-rake&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;vm-agca-rake&lt;/a&gt;)&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="186" width="47.5" height="44.06" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-47" value="snet-vm" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;spacingTop=0;spacing=22;spacingRight=0;textShadow=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="155" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-48" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;" parent="1" vertex="1">
+          <mxGeometry x="-101.69" y="160" width="33.39" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-49" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Network Security Group&lt;br&gt;(&lt;a style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; color: rgb(0, 90, 158); outline: none; text-decoration-line: none; text-align: left; background-color: rgb(223, 223, 223);&quot; tabindex=&quot;-1&quot; class=&quot;ms-Link root-268&quot; href=&quot;https://portal.azure.com/#blade/HubsExtension/ResourceMenuBlade/id/%2Fsubscriptions%2Fdd46fbee-59a0-47b0-bb75-3a3f02badb34%2FresourceGroups%2Frg-agca-rake%2Fproviders%2FMicrosoft.Network%2FnetworkSecurityGroups%2Fnsg-vm-agca-rake&quot;&gt;nsg-vm-agca-rake&lt;/a&gt;)&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
+          <mxGeometry x="-4.710000000000036" y="70" width="24.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rLy20smRiQUEDHiaMtCd-49" target="rLy20smRiQUEDHiaMtCd-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.343;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rLy20smRiQUEDHiaMtCd-51" target="rLy20smRiQUEDHiaMtCd-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-130" y="220" />
+              <mxPoint x="-130" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-51" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="150" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-52" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="315" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rLy20smRiQUEDHiaMtCd-11" target="rLy20smRiQUEDHiaMtCd-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="388.48" as="targetPoint" />
+            <mxPoint x="520" y="389" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Container App Environment&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(&lt;a style=&quot;text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; color: rgb(0, 69, 120); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233);&quot; href=&quot;https://portal.azure.com/#@simcorpcloud.onmicrosoft.com/resource/subscriptions/dd46fbee-59a0-47b0-bb75-3a3f02badb34/resourceGroups/rg-agca-rake/providers/Microsoft.App/managedEnvironments/cae-agca-rake&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;cae-agca-rake&lt;/a&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" parent="1" vertex="1">
+          <mxGeometry x="590" y="356" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;perimeterSpacing=23;strokeWidth=2;shadow=0;glass=0;direction=west;container=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="70" width="880" height="506.25" as="geometry">
+            <mxRectangle x="-170" y="70" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rLy20smRiQUEDHiaMtCd-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rLy20smRiQUEDHiaMtCd-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-256" y="380" />
+              <mxPoint x="-119" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
